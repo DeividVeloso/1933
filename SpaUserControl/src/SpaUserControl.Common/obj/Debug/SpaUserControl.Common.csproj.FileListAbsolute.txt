@@ -1,2 +1,12 @@
 C:\Users\dveloso\Desktop\Estudo\WebApiRobusto\SpaUserControl\src\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.Resources.Errors.resources
 C:\Users\dveloso\Desktop\Estudo\WebApiRobusto\SpaUserControl\src\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.csproj.GenerateResource.Cache
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Common\bin\Debug\SpaUserControl.Common.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Common\bin\Debug\SpaUserControl.Common.pdb
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Common\bin\Debug\pt-BR\SpaUserControl.Common.resources.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.csprojResolveAssemblyReference.cache
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.Resources.Errors.resources
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.Resources.Errors.pt-BR.resources
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.csproj.GenerateResource.Cache
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Common\obj\Debug\pt-BR\SpaUserControl.Common.resources.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.pdb
