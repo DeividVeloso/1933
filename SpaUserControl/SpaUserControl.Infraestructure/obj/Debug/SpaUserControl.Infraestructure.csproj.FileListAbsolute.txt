@@ -1,0 +1,15 @@
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Infraestructure\bin\Debug\SpaUserControl.Infraestructure.dll.config
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Infraestructure\bin\Debug\SpaUserControl.Infraestructure.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Infraestructure\bin\Debug\SpaUserControl.Infraestructure.pdb
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Infraestructure\bin\Debug\EntityFramework.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Infraestructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Infraestructure\bin\Debug\SpaUserControl.Domain.Models.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Infraestructure\bin\Debug\SpaUserControl.Common.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Infraestructure\bin\Debug\SpaUserControl.Domain.Models.pdb
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Infraestructure\bin\Debug\EntityFramework.xml
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Infraestructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Infraestructure\bin\Debug\SpaUserControl.Common.pdb
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Infraestructure\bin\Debug\pt-BR\SpaUserControl.Common.resources.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Infraestructure\obj\Debug\SpaUserControl.Infraestructure.csprojResolveAssemblyReference.cache
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Infraestructure\obj\Debug\SpaUserControl.Infraestructure.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Infraestructure\obj\Debug\SpaUserControl.Infraestructure.pdb
