@@ -1,11 +1,3 @@
-C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\bin\Debug\SpaUserControl.Domain.Models.dll
-C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\bin\Debug\SpaUserControl.Domain.Models.pdb
-C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\bin\Debug\SpaUserControl.Common.dll
-C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\bin\Debug\SpaUserControl.Common.pdb
-C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\bin\Debug\pt-BR\SpaUserControl.Common.resources.dll
-C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\obj\Debug\SpaUserControl.Domain.csprojResolveAssemblyReference.cache
-C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\obj\Debug\SpaUserControl.Domain.Models.dll
-C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\obj\Debug\SpaUserControl.Domain.Models.pdb
 C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\bin\Debug\SpaUserControl.Domain.Models.dll
 C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\bin\Debug\SpaUserControl.Domain.Models.pdb
 C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\bin\Debug\SpaUserControl.Common.dll
@@ -14,3 +6,11 @@ C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Mode
 C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\obj\Debug\SpaUserControl.Domain.csprojResolveAssemblyReference.cache
 C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\obj\Debug\SpaUserControl.Domain.Models.dll
 C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\obj\Debug\SpaUserControl.Domain.Models.pdb
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\bin\Debug\SpaUserControl.Domain.Models.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\bin\Debug\SpaUserControl.Domain.Models.pdb
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\bin\Debug\SpaUserControl.Common.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\bin\Debug\SpaUserControl.Common.pdb
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\bin\Debug\pt-BR\SpaUserControl.Common.resources.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\obj\Debug\SpaUserControl.Domain.csprojResolveAssemblyReference.cache
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\obj\Debug\SpaUserControl.Domain.Models.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Domain.Models\obj\Debug\SpaUserControl.Domain.Models.pdb
