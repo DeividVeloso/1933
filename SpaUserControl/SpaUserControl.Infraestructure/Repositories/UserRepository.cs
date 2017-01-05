@@ -12,7 +12,7 @@ namespace SpaUserControl.Infraestructure.Repositories
         //DI
         //Responsabilidade unica, dessa forma, ao invés de eu focar instanciando minha classe de context no Repository
         //Eu simplesmente crio uma dependencia no construtor, meu repositorioy não precisa saber da onde vem essa instancia
-        //Porém ele precisa usar, quem vai instanciar para classe não importa só importa assinatura que vai usar.
+        //Porém ele precisa usar, quem vai instanciar para o repósitorio não importa só importa assinatura que vai usar.
 
         private AppDataContext _context;
 
