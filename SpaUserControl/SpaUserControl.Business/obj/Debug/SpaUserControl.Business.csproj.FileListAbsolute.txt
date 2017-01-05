@@ -1,1 +1,14 @@
 C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\obj\Debug\SpaUserControl.Business.csprojResolveAssemblyReference.cache
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\SpaUserControl.Business.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\SpaUserControl.Business.pdb
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\SpaUserControl.Common.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\SpaUserControl.Domain.Models.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\SpaUserControl.Infraestructure.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\EntityFramework.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\SpaUserControl.Infraestructure.pdb
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\SpaUserControl.Common.pdb
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\SpaUserControl.Domain.Models.pdb
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\EntityFramework.xml
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\pt-BR\SpaUserControl.Common.resources.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\obj\Debug\SpaUserControl.Business.dll
+C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\obj\Debug\SpaUserControl.Business.pdb

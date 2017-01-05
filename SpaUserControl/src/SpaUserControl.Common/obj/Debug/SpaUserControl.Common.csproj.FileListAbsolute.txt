@@ -19,4 +19,3 @@ C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Common\ob
 C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Common\obj\Debug\pt-BR\SpaUserControl.Common.resources.dll
 C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.dll
 C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.pdb
-C:\Users\dveloso\Desktop\Estudo\1933\SpaUserControl\src\SpaUserControl.Common\obj\Debug\SpaUserControl.Common.csprojResolveAssemblyReference.cache

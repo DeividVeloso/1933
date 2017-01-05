@@ -1,9 +1,12 @@
-﻿using Owin;
+﻿using Microsoft.Practices.Unity;
+using Owin;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Http;
+using SpaUserControl.Startup;
+using SpaUserControl.Api.Helpers;
 
 namespace SpaUserControl.Api
 {
@@ -14,7 +17,15 @@ namespace SpaUserControl.Api
         public void Configuration(IAppBuilder app)
         {
             HttpConfiguration config = new HttpConfiguration();
+
+            //chamando a dependencia do Projeto Spa.StartUp
+            var container = new UnityContainer();
+            DependencyResolver.Resolve(container);
+            config.DependencyResolver = new UnityResolver(container);
+
+            //Chamando a minha configuração do WEBAPI
             ConfigureWebApi(config);
+            
             //Deixa o serviço publico sem nenhuma restrição de acesso entre dominios diferentes
             //Configurações iniciais  para que meu serviço rode
             app.UseCors(Microsoft.Owin.Cors.CorsOptions.AllowAll);
