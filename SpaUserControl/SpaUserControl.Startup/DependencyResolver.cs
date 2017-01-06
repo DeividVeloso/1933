@@ -1,6 +1,8 @@
 ﻿using Microsoft.Practices.Unity;
+using SpaUserControl.Business.Services;
 using SpaUserControl.Domain.Models;
 using SpaUserControl.Domain.Models.Contracts.Repositories;
+using SpaUserControl.Domain.Models.Contracts.Services;
 using SpaUserControl.Infraestructure.Data;
 using SpaUserControl.Infraestructure.Repositories;
 using System;
@@ -17,6 +19,7 @@ namespace SpaUserControl.Startup
         {
             container.RegisterType<AppDataContext, AppDataContext>(new HierarchicalLifetimeManager());
             container.RegisterType<IUserRepository, UserRepository>(new HierarchicalLifetimeManager());
+            container.RegisterType<IUserService, UserService>(new HierarchicalLifetimeManager());
         }
     }
 }

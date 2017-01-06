@@ -7,10 +7,14 @@ using System.Web;
 using System.Web.Http;
 using SpaUserControl.Startup;
 using SpaUserControl.Api.Helpers;
+using Microsoft.Owin.Security.OAuth;
+using Microsoft.Owin;
+using SpaUserControl.Domain.Models.Contracts.Services;
+using SpaUserControl.Api.Security;
 
 namespace SpaUserControl.Api
 {
-    public class StartUp
+    public class Startup
     {
         //Configuração obrigatoria
         //Recebe um IAppBuilder via injeção de dependencia que está dentro do using Owin;
@@ -25,6 +29,9 @@ namespace SpaUserControl.Api
 
             //Chamando a minha configuração do WEBAPI
             ConfigureWebApi(config);
+
+            //Chamando o método de autenticação do OAth
+            ConfigureOAuth(app, container.Resolve<IUserService>());
             
             //Deixa o serviço publico sem nenhuma restrição de acesso entre dominios diferentes
             //Configurações iniciais  para que meu serviço rode
@@ -42,6 +49,26 @@ namespace SpaUserControl.Api
                     defaults: new { id = RouteParameter.Optional }
                 );
         }
+
+        public void ConfigureOAuth(IAppBuilder app, IUserService service)
+        {
+            //Opções de autorização no meu servidor
+            OAuthAuthorizationServerOptions OAuthServerOptions = new OAuthAuthorizationServerOptions()
+            {
+                //Permite chamadas inseguras Http
+                AllowInsecureHttp = true,
+                //Endpoint que gera um token através de um usuário e senha
+                TokenEndpointPath = new PathString("/api/security/token"),
+                //Esse token terar duração de 2 horas
+                AccessTokenExpireTimeSpan = TimeSpan.FromHours(2),
+                //Gera um token baseado no retorno da classe AuthorizationServerProvider
+                Provider = new AuthorizationServerProvider(service)
+            };
+            // Token Generation
+            app.UseOAuthAuthorizationServer(OAuthServerOptions);
+            app.UseOAuthBearerAuthentication(new OAuthBearerAuthenticationOptions());
+        }
+
 
     }
 }
