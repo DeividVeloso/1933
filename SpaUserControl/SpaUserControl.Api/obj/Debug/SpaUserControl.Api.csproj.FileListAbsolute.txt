@@ -92,3 +92,5 @@ C:\Users\deivi\Desktop\Estudos\1933\SpaUserControl\SpaUserControl.Api\obj\Debug\
 C:\Users\deivi\Desktop\Estudos\1933\SpaUserControl\SpaUserControl.Api\obj\Debug\SpaUserControl.Api.pdb
 C:\Users\deivi\Desktop\Estudos\1933\SpaUserControl\SpaUserControl.Api\bin\SpaUserControl.Business.dll
 C:\Users\deivi\Desktop\Estudos\1933\SpaUserControl\SpaUserControl.Api\bin\SpaUserControl.Business.pdb
+C:\Users\deivi\Desktop\Estudos\1933\SpaUserControl\SpaUserControl.Api\bin\EntityFramework.SqlServer.dll
+C:\Users\deivi\Desktop\Estudos\1933\SpaUserControl\SpaUserControl.Api\bin\EntityFramework.SqlServer.xml

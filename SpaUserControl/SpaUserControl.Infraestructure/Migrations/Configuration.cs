@@ -9,7 +9,7 @@ namespace SpaUserControl.Infraestructure.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(SpaUserControl.Infraestructure.Data.AppDataContext context)

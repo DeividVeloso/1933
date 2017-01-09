@@ -19,7 +19,7 @@ namespace SpaUserControl.Business.Services
         {
             var user = GetByEmail(email);
 
-            if (user.Password != PasswordAssertionConcern.Encrypt(password))
+            if (user.Password.Trim() != PasswordAssertionConcern.Encrypt(password))
             {
                 throw new Exception(Errors.InvalidCredentials);
             }
