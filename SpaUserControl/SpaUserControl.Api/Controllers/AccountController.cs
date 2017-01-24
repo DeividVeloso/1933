@@ -10,6 +10,7 @@ using System.Web.Http;
 
 namespace SpaUserControl.Api.Controllers
 {
+    [RoutePrefix("api/Account")]
     public class AccountController : ApiController
     {
 
@@ -24,6 +25,7 @@ namespace SpaUserControl.Api.Controllers
         //Rota, api/Account/
 
         [HttpPost]
+        [Route("")]
         public RegisterUserModel Register(RegisterUserModel model)
         {
             try
@@ -35,8 +37,27 @@ namespace SpaUserControl.Api.Controllers
             }
             catch (Exception ex)
             {
-                return ex;
+                return null;
             }
+        }
+
+       
+        [HttpPut]
+        [Route("")]
+        [Authorize]
+        public void ChangeInformation(ChangeInformationModel model)
+        {
+            //Email e nome - o email está na classe User que vem ApiController, nela eu guardo o meu usuário do Identity gerado 
+            //no endpoint api/security/token
+            _service.ChangeInformation(User.Identity.Name,model.Name);
+        }
+
+
+        [HttpPost]
+        [Route("ChangePassword")]
+        public void ChangePassword(ChangePasswordModel model)
+        {
+            _service.ChangePassword(User.Identity.Name, model.Password, model.NewPassword, model.ConfirmNewPassword);
         }
 
         //Garante que não vai ficar nada aberto do controller quando não estiver mais usando

@@ -26,3 +26,17 @@ C:\Users\deivi\Desktop\Estudos\1933\SpaUserControl\SpaUserControl.Business\bin\D
 C:\Users\deivi\Desktop\Estudos\1933\SpaUserControl\SpaUserControl.Business\obj\Debug\SpaUserControl.Business.csprojResolveAssemblyReference.cache
 C:\Users\deivi\Desktop\Estudos\1933\SpaUserControl\SpaUserControl.Business\obj\Debug\SpaUserControl.Business.dll
 C:\Users\deivi\Desktop\Estudos\1933\SpaUserControl\SpaUserControl.Business\obj\Debug\SpaUserControl.Business.pdb
+C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\SpaUserControl.Business.dll
+C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\SpaUserControl.Business.pdb
+C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\SpaUserControl.Common.dll
+C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\SpaUserControl.Domain.Models.dll
+C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\SpaUserControl.Infraestructure.dll
+C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\EntityFramework.dll
+C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\SpaUserControl.Infraestructure.pdb
+C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\SpaUserControl.Common.pdb
+C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\SpaUserControl.Domain.Models.pdb
+C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\EntityFramework.xml
+C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\bin\Debug\pt-BR\SpaUserControl.Common.resources.dll
+C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\obj\Debug\SpaUserControl.Business.csprojResolveAssemblyReference.cache
+C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\obj\Debug\SpaUserControl.Business.dll
+C:\Users\deivi\Desktop\Estudo\1933\SpaUserControl\SpaUserControl.Business\obj\Debug\SpaUserControl.Business.pdb
