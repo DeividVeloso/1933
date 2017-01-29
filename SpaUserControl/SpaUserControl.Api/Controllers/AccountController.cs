@@ -26,7 +26,7 @@ namespace SpaUserControl.Api.Controllers
 
         [HttpPost]
         [Route("")]
-        public RegisterUserModel Register(RegisterUserModel model)
+        public RegisterUserModel Post(RegisterUserModel model)
         {
             try
             {
@@ -55,6 +55,7 @@ namespace SpaUserControl.Api.Controllers
 
         [HttpPost]
         [Route("ChangePassword")]
+        [Authorize]
         public void ChangePassword(ChangePasswordModel model)
         {
             _service.ChangePassword(User.Identity.Name, model.Password, model.NewPassword, model.ConfirmNewPassword);

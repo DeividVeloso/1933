@@ -11,6 +11,8 @@ using Microsoft.Owin.Security.OAuth;
 using Microsoft.Owin;
 using SpaUserControl.Domain.Models.Contracts.Services;
 using SpaUserControl.Api.Security;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 
 namespace SpaUserControl.Api
 {
@@ -41,6 +43,23 @@ namespace SpaUserControl.Api
         //Configuração obrigatória do WebAPI
         public static void ConfigureWebApi(HttpConfiguration config)
         {
+            //Se eu estou criando serviço REST, não vou usar XML nele
+            //Remove o XML
+            var formatters = config.Formatters;
+            formatters.Remove(formatters.XmlFormatter);
+
+
+            //Modifica a identação
+            //Deixa no padrão JavaScript toda variavel começa com minusculo
+            var jsonSettings = formatters.JsonFormatter.SerializerSettings;
+            jsonSettings.Formatting = Formatting.Indented;
+            jsonSettings.ContractResolver = new CamelCasePropertyNamesContractResolver();
+
+            //Modifica a serialização
+            //Para quem trabalha com eagerloading eu escolho os obejtos que quero iniciar
+            //Server para seriealizar objeto dentro de objeto
+            formatters.JsonFormatter.SerializerSettings.PreserveReferencesHandling = Newtonsoft.Json.PreserveReferencesHandling.Objects;
+
             //Configura a rota padrão do WebAPI, esse mesmo código fica no arquivo WebApiConfig
             config.MapHttpAttributeRoutes();
             config.Routes.MapHttpRoute(
